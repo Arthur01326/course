@@ -1,0 +1,21 @@
+[2025-11-18T12:50:43.025+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-18T12:50:43.067+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_read_file.read_file_task scheduled__2025-11-16T00:00:00+00:00 [queued]>
+[2025-11-18T12:50:43.082+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_read_file.read_file_task scheduled__2025-11-16T00:00:00+00:00 [queued]>
+[2025-11-18T12:50:43.083+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-18T12:50:43.109+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): read_file_task> on 2025-11-16 00:00:00+00:00
+[2025-11-18T12:50:43.117+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=61) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-18T12:50:43.119+0000] {standard_task_runner.py:63} INFO - Started process 73 to run task
+[2025-11-18T12:50:43.120+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_read_file', 'read_file_task', 'scheduled__2025-11-16T00:00:00+00:00', '--job-id', '136', '--raw', '--subdir', 'DAGS_FOLDER/test_read_file.py', '--cfg-path', '/tmp/tmpy21y6zkn']
+[2025-11-18T12:50:43.121+0000] {standard_task_runner.py:91} INFO - Job 136: Subtask read_file_task
+[2025-11-18T12:50:43.194+0000] {task_command.py:426} INFO - Running <TaskInstance: test_read_file.read_file_task scheduled__2025-11-16T00:00:00+00:00 [running]> on host 8374c225f2b5
+[2025-11-18T12:50:43.317+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_read_file' AIRFLOW_CTX_TASK_ID='read_file_task' AIRFLOW_CTX_EXECUTION_DATE='2025-11-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-16T00:00:00+00:00'
+[2025-11-18T12:50:43.318+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-18T12:53:01.329+0000] {logging_mixin.py:188} INFO - Невозможно декодировать JSON из ответа: {"method":"GET","href":"https://downloader.disk.yandex.ru/disk/d31af38db4a89145332890243263a8935629563460cfb9ddb77b2faf5d6c041d/691ca2f4/A_0-dcaGmXb9NjwF3P86UUv8SfvctoaQfiZZP4A-slL_HJZ15SA2oabmobSer5TlG12hx-ZaAeTUj6ap5Jfv7A%3D%3D?uid=0&filename=russian_houses.csv&disposition=attachment&hash=wX7HO3tgRtgIUAY6RgJZnfEetaHrkqCH7KJiogZ9ud/E1sPb9qnbXnMWYawL0%2B31q/J6bpmRyOJonT3VoXnDag%3D%3D%3A&limit=0&content_type=text%2Fplain&owner_uid=1741155865&fsize=347016034&hid=1340006e88178c70ebd957a573709de0&media_type=data&tknv=v3","templated":false}
+[2025-11-18T12:53:01.354+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-18T12:53:01.356+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-18T12:53:01.367+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=test_read_file, task_id=read_file_task, run_id=scheduled__2025-11-16T00:00:00+00:00, execution_date=20251116T000000, start_date=20251118T125043, end_date=20251118T125301
+[2025-11-18T12:53:01.382+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-18T12:53:01.392+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-18T12:53:01.393+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

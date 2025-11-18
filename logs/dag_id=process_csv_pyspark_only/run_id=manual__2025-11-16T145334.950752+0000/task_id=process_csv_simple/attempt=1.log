@@ -1,0 +1,36 @@
+[2025-11-16T14:53:35.513+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-16T14:53:35.531+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_csv_pyspark_only.process_csv_simple manual__2025-11-16T14:53:34.950752+00:00 [queued]>
+[2025-11-16T14:53:35.537+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_csv_pyspark_only.process_csv_simple manual__2025-11-16T14:53:34.950752+00:00 [queued]>
+[2025-11-16T14:53:35.538+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-16T14:53:35.547+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_csv_simple> on 2025-11-16 14:53:34.950752+00:00
+[2025-11-16T14:53:35.551+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1316) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-16T14:53:35.552+0000] {standard_task_runner.py:63} INFO - Started process 1317 to run task
+[2025-11-16T14:53:35.553+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_csv_pyspark_only', 'process_csv_simple', 'manual__2025-11-16T14:53:34.950752+00:00', '--job-id', '130', '--raw', '--subdir', 'DAGS_FOLDER/test_read_csv.py', '--cfg-path', '/tmp/tmpgb3m4y57']
+[2025-11-16T14:53:35.554+0000] {standard_task_runner.py:91} INFO - Job 130: Subtask process_csv_simple
+[2025-11-16T14:53:35.587+0000] {task_command.py:426} INFO - Running <TaskInstance: process_csv_pyspark_only.process_csv_simple manual__2025-11-16T14:53:34.950752+00:00 [running]> on host 8374c225f2b5
+[2025-11-16T14:53:35.651+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_csv_pyspark_only' AIRFLOW_CTX_TASK_ID='process_csv_simple' AIRFLOW_CTX_EXECUTION_DATE='2025-11-16T14:53:34.950752+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-16T14:53:34.950752+00:00'
+[2025-11-16T14:53:35.652+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-16T14:53:35.662+0000] {logging_mixin.py:188} INFO - === УПРОЩЕННАЯ ОБРАБОТКА CSV ===
+[2025-11-16T14:54:13.026+0000] {logging_mixin.py:188} INFO - root
+ |-- house_id: integer (nullable = true)
+ |-- latitude: double (nullable = true)
+ |-- longitude: double (nullable = true)
+ |-- maintenance_year: string (nullable = true)
+ |-- square: string (nullable = true)
+ |-- population: string (nullable = true)
+ |-- region: string (nullable = true)
+ |-- locality_name: string (nullable = true)
+ |-- address: string (nullable = true)
+ |-- full_address: string (nullable = true)
+ |-- communal_service_id: string (nullable = true)
+ |-- description: string (nullable = true)
+[2025-11-16T14:54:15.197+0000] {logging_mixin.py:188} INFO - Количество записей в файле: 590707
+[2025-11-16T14:54:16.720+0000] {logging_mixin.py:188} INFO - Количество записей после удаления пустых строк: 517124
+[2025-11-16T14:54:17.068+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-16T14:54:17.070+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-16T14:54:17.079+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=process_csv_pyspark_only, task_id=process_csv_simple, run_id=manual__2025-11-16T14:53:34.950752+00:00, execution_date=20251116T145334, start_date=20251116T145335, end_date=20251116T145417
+[2025-11-16T14:54:17.105+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-16T14:54:17.120+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-16T14:54:17.122+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

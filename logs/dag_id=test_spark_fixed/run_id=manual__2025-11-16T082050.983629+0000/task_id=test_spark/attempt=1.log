@@ -1,0 +1,34 @@
+[2025-11-16T08:20:51.486+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-16T08:20:51.505+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_spark_fixed.test_spark manual__2025-11-16T08:20:50.983629+00:00 [queued]>
+[2025-11-16T08:20:51.511+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_spark_fixed.test_spark manual__2025-11-16T08:20:50.983629+00:00 [queued]>
+[2025-11-16T08:20:51.512+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-16T08:20:51.521+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): test_spark> on 2025-11-16 08:20:50.983629+00:00
+[2025-11-16T08:20:51.525+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=186) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-16T08:20:51.527+0000] {standard_task_runner.py:63} INFO - Started process 187 to run task
+[2025-11-16T08:20:51.527+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_spark_fixed', 'test_spark', 'manual__2025-11-16T08:20:50.983629+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/test_2.py', '--cfg-path', '/tmp/tmpovlbqd1n']
+[2025-11-16T08:20:51.528+0000] {standard_task_runner.py:91} INFO - Job 113: Subtask test_spark
+[2025-11-16T08:20:51.566+0000] {task_command.py:426} INFO - Running <TaskInstance: test_spark_fixed.test_spark manual__2025-11-16T08:20:50.983629+00:00 [running]> on host aa0a12ef65d5
+[2025-11-16T08:20:51.627+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_spark_fixed' AIRFLOW_CTX_TASK_ID='test_spark' AIRFLOW_CTX_EXECUTION_DATE='2025-11-16T08:20:50.983629+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-16T08:20:50.983629+00:00'
+[2025-11-16T08:20:51.628+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-16T08:20:51.639+0000] {logging_mixin.py:188} INFO - Ошибка: Unable to find py4j in /usr/local/lib/python3.9/site-packages/pyspark/python, your SPARK_HOME may not be configured correctly
+[2025-11-16T08:20:51.642+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2025-11-16T08:20:51.642+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.12/site-packages/findspark.py", line 159, in init
+    py4j = glob(os.path.join(spark_python, "lib", "py4j-*.zip"))[0]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+[2025-11-16T08:20:51.643+0000] {logging_mixin.py:188} WARNING - IndexError: list index out of range
+[2025-11-16T08:20:51.643+0000] {logging_mixin.py:188} WARNING - 
+During handling of the above exception, another exception occurred:
+[2025-11-16T08:20:51.643+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2025-11-16T08:20:51.644+0000] {logging_mixin.py:188} WARNING -   File "/opt/***/dags/test_2.py", line 11, in test_spark_fixed
+    findspark.init()
+[2025-11-16T08:20:51.644+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.12/site-packages/findspark.py", line 161, in init
+    raise Exception(
+[2025-11-16T08:20:51.644+0000] {logging_mixin.py:188} WARNING - Exception: Unable to find py4j in /usr/local/lib/python3.9/site-packages/pyspark/python, your SPARK_HOME may not be configured correctly
+[2025-11-16T08:20:51.644+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-16T08:20:51.645+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-16T08:20:51.652+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=test_spark_fixed, task_id=test_spark, run_id=manual__2025-11-16T08:20:50.983629+00:00, execution_date=20251116T082050, start_date=20251116T082051, end_date=20251116T082051
+[2025-11-16T08:20:51.701+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-16T08:20:51.713+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-16T08:20:51.715+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

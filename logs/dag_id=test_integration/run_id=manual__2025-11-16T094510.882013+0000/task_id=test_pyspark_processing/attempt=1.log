@@ -1,0 +1,30 @@
+[2025-11-16T09:45:13.211+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-16T09:45:13.224+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_integration.test_pyspark_processing manual__2025-11-16T09:45:10.882013+00:00 [queued]>
+[2025-11-16T09:45:13.229+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_integration.test_pyspark_processing manual__2025-11-16T09:45:10.882013+00:00 [queued]>
+[2025-11-16T09:45:13.230+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-16T09:45:13.239+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): test_pyspark_processing> on 2025-11-16 09:45:10.882013+00:00
+[2025-11-16T09:45:13.243+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-16T09:45:13.244+0000] {standard_task_runner.py:63} INFO - Started process 198 to run task
+[2025-11-16T09:45:13.244+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_integration', 'test_pyspark_processing', 'manual__2025-11-16T09:45:10.882013+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/test_integration.py', '--cfg-path', '/tmp/tmpgt5v2oxp']
+[2025-11-16T09:45:13.246+0000] {standard_task_runner.py:91} INFO - Job 122: Subtask test_pyspark_processing
+[2025-11-16T09:45:13.280+0000] {task_command.py:426} INFO - Running <TaskInstance: test_integration.test_pyspark_processing manual__2025-11-16T09:45:10.882013+00:00 [running]> on host 8374c225f2b5
+[2025-11-16T09:45:13.334+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_integration' AIRFLOW_CTX_TASK_ID='test_pyspark_processing' AIRFLOW_CTX_EXECUTION_DATE='2025-11-16T09:45:10.882013+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-16T09:45:10.882013+00:00'
+[2025-11-16T09:45:13.335+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-16T09:45:17.150+0000] {logging_mixin.py:188} INFO - PySpark DataFrame:
+[2025-11-16T09:45:19.605+0000] {logging_mixin.py:188} INFO - +---+-------+-----+
+| id|   name|value|
++---+-------+-----+
+|  1|  Alice|100.5|
+|  2|    Bob|200.3|
+|  3|Charlie|150.0|
++---+-------+-----+
+[2025-11-16T09:45:20.315+0000] {logging_mixin.py:188} INFO - Total sum: 450.8
+[2025-11-16T09:45:21.166+0000] {logging_mixin.py:188} INFO - PySpark processing: SUCCESS
+[2025-11-16T09:45:21.166+0000] {python.py:237} INFO - Done. Returned value was: True
+[2025-11-16T09:45:21.167+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-16T09:45:21.183+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=test_integration, task_id=test_pyspark_processing, run_id=manual__2025-11-16T09:45:10.882013+00:00, execution_date=20251116T094510, start_date=20251116T094513, end_date=20251116T094521
+[2025-11-16T09:45:21.205+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-16T09:45:21.216+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-16T09:45:21.218+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
