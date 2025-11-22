@@ -1,0 +1,172 @@
+[2025-11-19T18:06:26.835+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-19T18:06:26.850+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: coursework_test_connect_2.process_and_load_houses_data manual__2025-11-19T18:06:25.338041+00:00 [queued]>
+[2025-11-19T18:06:26.855+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: coursework_test_connect_2.process_and_load_houses_data manual__2025-11-19T18:06:25.338041+00:00 [queued]>
+[2025-11-19T18:06:26.855+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-19T18:06:26.866+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_and_load_houses_data> on 2025-11-19 18:06:25.338041+00:00
+[2025-11-19T18:06:26.871+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3890) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-19T18:06:26.873+0000] {standard_task_runner.py:63} INFO - Started process 3892 to run task
+[2025-11-19T18:06:26.873+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'coursework_test_connect_2', 'process_and_load_houses_data', 'manual__2025-11-19T18:06:25.338041+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/test_deep.py', '--cfg-path', '/tmp/tmphgz5h519']
+[2025-11-19T18:06:26.876+0000] {standard_task_runner.py:91} INFO - Job 195: Subtask process_and_load_houses_data
+[2025-11-19T18:06:26.911+0000] {task_command.py:426} INFO - Running <TaskInstance: coursework_test_connect_2.process_and_load_houses_data manual__2025-11-19T18:06:25.338041+00:00 [running]> on host 8374c225f2b5
+[2025-11-19T18:06:27.083+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='coursework_test_connect_2' AIRFLOW_CTX_TASK_ID='process_and_load_houses_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-19T18:06:25.338041+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-19T18:06:25.338041+00:00'
+[2025-11-19T18:06:27.134+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-19T18:07:06.736+0000] {test_deep.py:53} INFO - Схема данных:
+[2025-11-19T18:07:06.747+0000] {logging_mixin.py:188} INFO - root
+ |-- house_id: integer (nullable = true)
+ |-- latitude: double (nullable = true)
+ |-- longitude: double (nullable = true)
+ |-- maintenance_year: string (nullable = true)
+ |-- square: string (nullable = true)
+ |-- population: string (nullable = true)
+ |-- region: string (nullable = true)
+ |-- locality_name: string (nullable = true)
+ |-- address: string (nullable = true)
+ |-- full_address: string (nullable = true)
+ |-- communal_service_id: string (nullable = true)
+ |-- description: string (nullable = true)
+[2025-11-19T18:07:08.655+0000] {test_deep.py:58} INFO - Количество записей в файле: 590707
+[2025-11-19T18:07:10.075+0000] {test_deep.py:66} INFO - Количество записей после удаления пустых строк: 517124
+[2025-11-19T18:07:10.159+0000] {test_deep.py:89} INFO - Преобразованные данные:
+[2025-11-19T18:07:10.160+0000] {logging_mixin.py:188} INFO - root
+ |-- house_id: integer (nullable = true)
+ |-- latitude: double (nullable = true)
+ |-- longitude: double (nullable = true)
+ |-- maintenance_year: date (nullable = true)
+ |-- square: double (nullable = true)
+ |-- population: integer (nullable = true)
+ |-- region: string (nullable = true)
+ |-- locality_name: string (nullable = true)
+ |-- address: string (nullable = true)
+ |-- full_address: string (nullable = true)
+ |-- communal_service_id: double (nullable = true)
+ |-- description: string (nullable = true)
+[2025-11-19T18:07:10.161+0000] {test_deep.py:93} INFO - ---Вычисления и аналитика преобразованных данных---
+[2025-11-19T18:07:14.719+0000] {test_deep.py:102} INFO - Средний год постройки зданий: 1970
+[2025-11-19T18:07:14.720+0000] {test_deep.py:103} INFO - Медианный год постройки: 1970
+[2025-11-19T18:07:14.731+0000] {test_deep.py:107} INFO - Топ 10 регионов по количеству объектов:
+[2025-11-19T18:07:16.786+0000] {test_deep.py:110} INFO -   Московская область: 30177
+[2025-11-19T18:07:16.787+0000] {test_deep.py:110} INFO -   Свердловская область: 27230
+[2025-11-19T18:07:16.788+0000] {test_deep.py:110} INFO -   Москва: 24717
+[2025-11-19T18:07:16.788+0000] {test_deep.py:110} INFO -   Нижегородская область: 18016
+[2025-11-19T18:07:16.789+0000] {test_deep.py:110} INFO -   Республика Татарстан: 14400
+[2025-11-19T18:07:16.789+0000] {test_deep.py:110} INFO -   Красноярский край: 14349
+[2025-11-19T18:07:16.790+0000] {test_deep.py:110} INFO -   Кемеровская область: 13285
+[2025-11-19T18:07:16.790+0000] {test_deep.py:110} INFO -   Самарская область: 13042
+[2025-11-19T18:07:16.790+0000] {test_deep.py:110} INFO -   Ростовская область: 12040
+[2025-11-19T18:07:16.791+0000] {test_deep.py:110} INFO -   Иркутская область: 11983
+[2025-11-19T18:07:16.800+0000] {test_deep.py:114} INFO - Топ 10 городов по количеству объектов:
+[2025-11-19T18:07:18.750+0000] {test_deep.py:117} INFO -   Москва: 24617
+[2025-11-19T18:07:18.750+0000] {test_deep.py:117} INFO -   Самара: 6940
+[2025-11-19T18:07:18.750+0000] {test_deep.py:117} INFO -   Екатеринбург: 6824
+[2025-11-19T18:07:18.751+0000] {test_deep.py:117} INFO -   Санкт-Петербург: 6077
+[2025-11-19T18:07:18.751+0000] {test_deep.py:117} INFO -   Нижний Новгород: 5898
+[2025-11-19T18:07:18.751+0000] {test_deep.py:117} INFO -   Новосибирск: 5441
+[2025-11-19T18:07:18.752+0000] {test_deep.py:117} INFO -   Красноярск: 5296
+[2025-11-19T18:07:18.752+0000] {test_deep.py:117} INFO -   Ростов-на-Дону: 5132
+[2025-11-19T18:07:18.752+0000] {test_deep.py:117} INFO -   Казань: 4896
+[2025-11-19T18:07:18.753+0000] {test_deep.py:117} INFO -   Калининград: 4863
+[2025-11-19T18:07:18.794+0000] {test_deep.py:127} INFO - Количество зданий по десятилетиям:
+[2025-11-19T18:07:21.219+0000] {test_deep.py:129} INFO -   1800: 22
+[2025-11-19T18:07:21.220+0000] {test_deep.py:129} INFO -   1810: 16
+[2025-11-19T18:07:21.220+0000] {test_deep.py:129} INFO -   1820: 47
+[2025-11-19T18:07:21.221+0000] {test_deep.py:129} INFO -   1830: 69
+[2025-11-19T18:07:21.221+0000] {test_deep.py:129} INFO -   1840: 72
+[2025-11-19T18:07:21.221+0000] {test_deep.py:129} INFO -   1850: 127
+[2025-11-19T18:07:21.222+0000] {test_deep.py:129} INFO -   1860: 187
+[2025-11-19T18:07:21.222+0000] {test_deep.py:129} INFO -   1870: 379
+[2025-11-19T18:07:21.222+0000] {test_deep.py:129} INFO -   1880: 690
+[2025-11-19T18:07:21.222+0000] {test_deep.py:129} INFO -   1890: 1202
+[2025-11-19T18:07:21.223+0000] {test_deep.py:129} INFO -   1900: 2630
+[2025-11-19T18:07:21.223+0000] {test_deep.py:129} INFO -   1910: 13717
+[2025-11-19T18:07:21.223+0000] {test_deep.py:129} INFO -   1920: 4762
+[2025-11-19T18:07:21.223+0000] {test_deep.py:129} INFO -   1930: 12472
+[2025-11-19T18:07:21.224+0000] {test_deep.py:129} INFO -   1940: 18664
+[2025-11-19T18:07:21.224+0000] {test_deep.py:129} INFO -   1950: 82721
+[2025-11-19T18:07:21.224+0000] {test_deep.py:129} INFO -   1960: 109138
+[2025-11-19T18:07:21.225+0000] {test_deep.py:129} INFO -   1970: 95115
+[2025-11-19T18:07:21.225+0000] {test_deep.py:129} INFO -   1980: 88624
+[2025-11-19T18:07:21.226+0000] {test_deep.py:129} INFO -   1990: 41858
+[2025-11-19T18:07:21.226+0000] {test_deep.py:129} INFO -   2000: 22809
+[2025-11-19T18:07:21.226+0000] {test_deep.py:129} INFO -   2010: 13720
+[2025-11-19T18:07:21.226+0000] {test_deep.py:129} INFO -   2020: 1
+[2025-11-19T18:07:21.226+0000] {test_deep.py:132} INFO - Начинаем загрузку в ClickHouse...
+[2025-11-19T18:07:21.247+0000] {test_deep.py:140} INFO - ✅ Подключение к ClickHouse установлено
+[2025-11-19T18:07:21.250+0000] {test_deep.py:164} INFO - ✅ Таблица создана или уже существует
+[2025-11-19T18:07:30.112+0000] {transform.py:110} ERROR - Error serializing column `maintenance_year` into data type `Date`
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/common.py", line 57, in write_array
+    dest += buff.pack(*column)
+            ^^^^^^^^^^^^^^^^^^
+struct.error: 'H' format requires 0 <= number <= 65535
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/transform.py", line 104, in chunk_gen
+    col_type.write_column(data, output, context)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/datatypes/base.py", line 209, in write_column
+    self.write_column_data(column, dest, ctx)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/datatypes/base.py", line 224, in write_column_data
+    self._write_column_binary(column, dest, ctx)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/datatypes/temporal.py", line 48, in _write_column_binary
+    write_array(self._array_type, column, dest, ctx.column_name)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/common.py", line 62, in write_array
+    raise DataError(f'Unable to create Python array{col_msg}.  This is usually caused by trying to insert None ' +
+clickhouse_connect.driver.exceptions.DataError: Unable to create Python array for source column `maintenance_year`.  This is usually caused by trying to insert None values into a ClickHouse column that is not Nullable
+[2025-11-19T18:07:30.122+0000] {test_deep.py:189} ERROR - ❌ Ошибка: Unable to create Python array for source column `maintenance_year`.  This is usually caused by trying to insert None values into a ClickHouse column that is not Nullable
+[2025-11-19T18:07:30.151+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-19T18:07:30.152+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/common.py", line 57, in write_array
+    dest += buff.pack(*column)
+            ^^^^^^^^^^^^^^^^^^
+struct.error: 'H' format requires 0 <= number <= 65535
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_deep.py", line 171, in russian_houses_analysis_and_load
+    client.insert('russian_houses',
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/client.py", line 618, in insert
+    return self.data_insert(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/httpclient.py", line 268, in data_insert
+    response = self._raw_request(block_gen, params, headers, error_handler=error_handler, server_wait=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/httpclient.py", line 454, in _raw_request
+    error_handler(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/httpclient.py", line 253, in error_handler
+    raise ex
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/transform.py", line 104, in chunk_gen
+    col_type.write_column(data, output, context)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/datatypes/base.py", line 209, in write_column
+    self.write_column_data(column, dest, ctx)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/datatypes/base.py", line 224, in write_column_data
+    self._write_column_binary(column, dest, ctx)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/datatypes/temporal.py", line 48, in _write_column_binary
+    write_array(self._array_type, column, dest, ctx.column_name)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/common.py", line 62, in write_array
+    raise DataError(f'Unable to create Python array{col_msg}.  This is usually caused by trying to insert None ' +
+clickhouse_connect.driver.exceptions.DataError: Unable to create Python array for source column `maintenance_year`.  This is usually caused by trying to insert None values into a ClickHouse column that is not Nullable
+[2025-11-19T18:07:30.161+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=coursework_test_connect_2, task_id=process_and_load_houses_data, run_id=manual__2025-11-19T18:06:25.338041+00:00, execution_date=20251119T180625, start_date=20251119T180626, end_date=20251119T180730
+[2025-11-19T18:07:30.173+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 195 for task process_and_load_houses_data (Unable to create Python array for source column `maintenance_year`.  This is usually caused by trying to insert None values into a ClickHouse column that is not Nullable; 3892)
+[2025-11-19T18:07:30.256+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-19T18:07:30.269+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-19T18:07:30.271+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

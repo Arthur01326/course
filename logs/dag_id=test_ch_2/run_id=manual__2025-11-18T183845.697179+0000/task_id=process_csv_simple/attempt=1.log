@@ -1,0 +1,53 @@
+[2025-11-18T18:38:47.144+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-18T18:38:47.160+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_ch_2.process_csv_simple manual__2025-11-18T18:38:45.697179+00:00 [queued]>
+[2025-11-18T18:38:47.165+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_ch_2.process_csv_simple manual__2025-11-18T18:38:45.697179+00:00 [queued]>
+[2025-11-18T18:38:47.166+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-18T18:38:47.174+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_csv_simple> on 2025-11-18 18:38:45.697179+00:00
+[2025-11-18T18:38:47.179+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=7486) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-18T18:38:47.181+0000] {standard_task_runner.py:63} INFO - Started process 7487 to run task
+[2025-11-18T18:38:47.181+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_ch_2', 'process_csv_simple', 'manual__2025-11-18T18:38:45.697179+00:00', '--job-id', '173', '--raw', '--subdir', 'DAGS_FOLDER/test_ch_jar.py', '--cfg-path', '/tmp/tmpttqnm01l']
+[2025-11-18T18:38:47.182+0000] {standard_task_runner.py:91} INFO - Job 173: Subtask process_csv_simple
+[2025-11-18T18:38:47.218+0000] {task_command.py:426} INFO - Running <TaskInstance: test_ch_2.process_csv_simple manual__2025-11-18T18:38:45.697179+00:00 [running]> on host 8374c225f2b5
+[2025-11-18T18:38:47.282+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_ch_2' AIRFLOW_CTX_TASK_ID='process_csv_simple' AIRFLOW_CTX_EXECUTION_DATE='2025-11-18T18:38:45.697179+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-18T18:38:45.697179+00:00'
+[2025-11-18T18:38:47.283+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-18T18:38:47.293+0000] {test_ch_jar.py:15} INFO - === ЗАПУСК СУЩЕСТВУЮЩИМ JAR ФАЙЛОМ ===
+[2025-11-18T18:38:47.294+0000] {test_ch_jar.py:26} ERROR - JAR файл не найден: /opt/***/jars/clickhouse-jdbc-0.4.6-all.jar
+[2025-11-18T18:38:47.294+0000] {test_ch_jar.py:90} ERROR - ❌ Ошибка при записи через JDBC: JAR файл не найден
+[2025-11-18T18:38:47.294+0000] {test_ch_jar.py:93} INFO - Пробуем альтернативный метод записи...
+[2025-11-18T18:38:47.294+0000] {test_ch_jar.py:104} ERROR - ❌ Ошибка при альтернативном методе: cannot access local variable 'df' where it is not associated with a value
+[2025-11-18T18:38:47.294+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-18T18:38:47.295+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/test_ch_jar.py", line 32, in test_ch_2
+    raise Exception("JAR файл не найден")
+Exception: JAR файл не найден
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_ch_jar.py", line 101, in test_ch_2
+    df.write.jdbc(url=url, table="employees1234", mode="append", properties=properties)
+    ^^
+UnboundLocalError: cannot access local variable 'df' where it is not associated with a value
+[2025-11-18T18:38:47.303+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=test_ch_2, task_id=process_csv_simple, run_id=manual__2025-11-18T18:38:45.697179+00:00, execution_date=20251118T183845, start_date=20251118T183847, end_date=20251118T183847
+[2025-11-18T18:38:47.312+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 173 for task process_csv_simple (cannot access local variable 'df' where it is not associated with a value; 7487)
+[2025-11-18T18:38:47.355+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-18T18:38:47.368+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-18T18:38:47.370+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

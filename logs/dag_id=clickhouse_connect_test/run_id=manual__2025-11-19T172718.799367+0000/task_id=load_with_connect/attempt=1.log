@@ -1,0 +1,22 @@
+[2025-11-19T17:27:20.151+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-19T17:27:20.169+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clickhouse_connect_test.load_with_connect manual__2025-11-19T17:27:18.799367+00:00 [queued]>
+[2025-11-19T17:27:20.175+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clickhouse_connect_test.load_with_connect manual__2025-11-19T17:27:18.799367+00:00 [queued]>
+[2025-11-19T17:27:20.175+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-19T17:27:20.184+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_with_connect> on 2025-11-19 17:27:18.799367+00:00
+[2025-11-19T17:27:20.190+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1406) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-19T17:27:20.191+0000] {standard_task_runner.py:63} INFO - Started process 1408 to run task
+[2025-11-19T17:27:20.191+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'clickhouse_connect_test', 'load_with_connect', 'manual__2025-11-19T17:27:18.799367+00:00', '--job-id', '188', '--raw', '--subdir', 'DAGS_FOLDER/test_ch_3.py', '--cfg-path', '/tmp/tmpzwdhtny4']
+[2025-11-19T17:27:20.193+0000] {standard_task_runner.py:91} INFO - Job 188: Subtask load_with_connect
+[2025-11-19T17:27:20.224+0000] {task_command.py:426} INFO - Running <TaskInstance: clickhouse_connect_test.load_with_connect manual__2025-11-19T17:27:18.799367+00:00 [running]> on host 8374c225f2b5
+[2025-11-19T17:27:20.284+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='clickhouse_connect_test' AIRFLOW_CTX_TASK_ID='load_with_connect' AIRFLOW_CTX_EXECUTION_DATE='2025-11-19T17:27:18.799367+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-19T17:27:18.799367+00:00'
+[2025-11-19T17:27:20.285+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-19T17:27:20.330+0000] {test_ch_3.py:12} INFO - ✅ Подключение установлено
+[2025-11-19T17:27:20.350+0000] {test_ch_3.py:31} INFO - ✅ Загружено 4 записей
+[2025-11-19T17:27:20.350+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-19T17:27:20.351+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-19T17:27:20.357+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=clickhouse_connect_test, task_id=load_with_connect, run_id=manual__2025-11-19T17:27:18.799367+00:00, execution_date=20251119T172718, start_date=20251119T172720, end_date=20251119T172720
+[2025-11-19T17:27:20.404+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-19T17:27:20.419+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-19T17:27:20.421+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

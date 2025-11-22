@@ -1,0 +1,1127 @@
+[2025-11-20T17:23:04.871+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:23:04.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:23:04.875+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:23:04.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:23:05.862+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:23:05.902+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:23:05.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:23:05.920+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:23:05.920+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:23:05.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 1.079 seconds
+[2025-11-20T17:23:37.026+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:23:37.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:23:37.030+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:23:37.029+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:23:37.529+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:23:37.543+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:23:37.543+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:23:37.550+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:23:37.550+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:23:37.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.541 seconds
+[2025-11-20T17:24:08.235+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:24:08.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:24:08.238+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:24:08.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:24:08.603+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:24:08.619+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:24:08.619+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:24:08.626+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:24:08.626+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:24:08.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.407 seconds
+[2025-11-20T17:24:39.190+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:24:39.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:24:39.194+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:24:39.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:24:39.770+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:24:39.790+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:24:39.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:24:39.798+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:24:39.798+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:24:39.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.627 seconds
+[2025-11-20T17:25:10.157+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:25:10.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:25:10.159+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:25:10.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:25:10.576+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:25:10.593+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:25:10.593+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:25:10.599+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:25:10.599+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:25:10.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.460 seconds
+[2025-11-20T17:25:41.145+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:25:41.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:25:41.147+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:25:41.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:25:41.638+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:25:41.664+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:25:41.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:25:41.676+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:25:41.676+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:25:41.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.562 seconds
+[2025-11-20T17:26:12.121+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:26:12.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:26:12.123+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:26:12.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:26:12.516+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:26:12.535+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:26:12.534+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:26:12.541+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:26:12.541+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:26:12.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.437 seconds
+[2025-11-20T17:26:42.618+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:26:42.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:26:42.620+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:26:42.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:26:43.018+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:26:43.036+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:26:43.035+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:26:43.042+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:26:43.042+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:26:43.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.441 seconds
+[2025-11-20T17:27:13.146+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:27:13.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:27:13.148+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:27:13.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:27:13.537+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:27:13.552+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:27:13.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:27:13.558+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:27:13.558+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:27:13.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.429 seconds
+[2025-11-20T17:27:43.772+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:27:43.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:27:43.774+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:27:43.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:27:44.194+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:27:44.214+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:27:44.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:27:44.221+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:27:44.221+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:27:44.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.469 seconds
+[2025-11-20T17:28:14.562+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:28:14.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:28:14.565+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:28:14.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:28:15.042+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:28:15.060+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:28:15.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:28:15.068+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:28:15.068+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:28:15.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.526 seconds
+[2025-11-20T17:28:45.536+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:28:45.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:28:45.539+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:28:45.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:28:46.059+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:28:46.078+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:28:46.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:28:46.086+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:28:46.086+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:28:46.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.571 seconds
+[2025-11-20T17:29:16.594+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:29:16.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:29:16.597+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:29:16.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:29:17.206+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:29:17.232+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:29:17.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:29:17.248+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:29:17.248+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:29:17.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.681 seconds
+[2025-11-20T17:29:53.164+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:29:53.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:29:53.166+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:29:53.165+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:29:53.570+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:29:53.586+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:29:53.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:29:53.592+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:29:53.591+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:29:53.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.444 seconds
+[2025-11-20T17:30:24.473+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:30:24.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:30:24.475+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:30:24.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:30:24.859+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:30:24.873+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:30:24.873+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:30:24.879+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:30:24.879+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:30:24.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.422 seconds
+[2025-11-20T17:30:55.065+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:30:55.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:30:55.067+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:30:55.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:30:55.461+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:30:55.475+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:30:55.474+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:30:55.481+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:30:55.481+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:30:55.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.433 seconds
+[2025-11-20T17:31:25.759+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:31:25.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:31:25.761+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:31:25.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:31:26.140+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:31:26.155+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:31:26.155+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:31:26.162+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:31:26.162+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:31:26.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.420 seconds
+[2025-11-20T17:31:56.299+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:31:56.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:31:56.301+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:31:56.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:31:56.693+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:31:56.708+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:31:56.708+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:31:56.715+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:31:56.715+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:31:56.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.433 seconds
+[2025-11-20T17:32:26.976+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:32:26.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:32:26.979+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:32:26.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:32:27.517+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:32:27.536+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:32:27.536+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:32:27.545+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:32:27.545+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:32:27.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.591 seconds
+[2025-11-20T17:32:58.001+0000] {processor.py:161} INFO - Started process (PID=394) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:32:58.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:32:58.003+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:32:58.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:32:58.761+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:32:58.777+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:32:58.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:32:58.784+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:32:58.784+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:32:58.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.801 seconds
+[2025-11-20T17:33:29.053+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:33:29.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:33:29.056+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:33:29.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:33:29.444+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:33:29.467+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:33:29.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:33:29.474+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:33:29.474+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:33:29.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.438 seconds
+[2025-11-20T17:33:59.783+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:33:59.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:33:59.786+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:33:59.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:34:00.216+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:34:00.231+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:34:00.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:34:00.238+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:34:00.238+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:34:00.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.473 seconds
+[2025-11-20T17:34:31.157+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:34:31.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:34:31.159+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:34:31.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:34:31.554+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:34:31.571+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:34:31.571+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:34:31.580+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:34:31.580+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:34:31.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.444 seconds
+[2025-11-20T17:35:01.792+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:35:01.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:35:01.794+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:35:01.794+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:35:02.263+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:35:02.284+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:35:02.284+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:35:02.292+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:35:02.292+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:35:02.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.520 seconds
+[2025-11-20T17:35:32.974+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:35:32.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:35:32.976+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:35:32.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:35:33.342+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:35:33.357+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:35:33.356+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:35:33.363+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:35:33.363+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:35:33.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.405 seconds
+[2025-11-20T17:36:03.577+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:36:03.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:36:03.579+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:36:03.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:36:03.944+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:36:03.959+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:36:03.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:36:03.965+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:36:03.965+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:36:03.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.406 seconds
+[2025-11-20T17:36:34.363+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:36:34.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:36:34.364+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:36:34.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:36:34.735+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:36:34.750+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:36:34.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:36:34.757+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:36:34.757+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:36:34.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.412 seconds
+[2025-11-20T17:37:05.293+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:37:05.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:37:05.294+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:37:05.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:37:05.668+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:37:05.682+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:37:05.682+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:37:05.688+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:37:05.688+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:37:05.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.411 seconds
+[2025-11-20T17:37:35.949+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:37:35.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:37:35.950+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:37:35.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:37:36.388+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:37:36.406+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:37:36.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:37:36.413+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:37:36.413+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:37:36.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.484 seconds
+[2025-11-20T17:38:06.489+0000] {processor.py:161} INFO - Started process (PID=562) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:38:06.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:38:06.491+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:38:06.491+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:38:07.090+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:38:07.116+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:38:07.116+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:38:07.127+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:38:07.127+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:38:07.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.662 seconds
+[2025-11-20T17:38:37.538+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:38:37.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:38:37.540+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:38:37.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:38:37.948+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:38:37.963+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:38:37.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:38:37.969+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:38:37.969+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:38:37.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.448 seconds
+[2025-11-20T17:39:08.446+0000] {processor.py:161} INFO - Started process (PID=596) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:39:08.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:39:08.448+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:39:08.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:39:08.861+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:39:08.887+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:39:08.887+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:39:08.895+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:39:08.895+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:39:08.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.472 seconds
+[2025-11-20T17:39:39.096+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:39:39.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:39:39.098+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:39:39.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:39:39.516+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:39:39.532+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:39:39.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:39:39.541+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:39:39.541+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:39:39.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.465 seconds
+[2025-11-20T17:40:10.634+0000] {processor.py:161} INFO - Started process (PID=636) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:40:10.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:40:10.637+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:40:10.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:40:11.173+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:40:11.189+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:40:11.189+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:40:11.196+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:40:11.196+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:40:11.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.583 seconds
+[2025-11-20T17:40:41.604+0000] {processor.py:161} INFO - Started process (PID=653) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:40:41.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:40:41.606+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:40:41.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:40:42.014+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:40:42.030+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:40:42.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:40:42.037+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:40:42.036+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:40:42.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.455 seconds
+[2025-11-20T17:41:12.183+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:41:12.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:41:12.185+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:41:12.185+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:41:12.582+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:41:12.597+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:41:12.596+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:41:12.603+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:41:12.603+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:41:12.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.436 seconds
+[2025-11-20T17:41:43.182+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:41:43.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:41:43.184+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:41:43.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:41:43.687+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:41:43.707+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:41:43.707+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:41:43.716+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:41:43.716+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:41:43.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.553 seconds
+[2025-11-20T17:42:13.913+0000] {processor.py:161} INFO - Started process (PID=704) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:42:13.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:42:13.914+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:42:13.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:42:14.368+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:42:14.385+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:42:14.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:42:14.392+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:42:14.392+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:42:14.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.503 seconds
+[2025-11-20T17:42:44.768+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:42:44.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:42:44.771+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:42:44.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:42:45.244+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:42:45.262+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:42:45.262+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:42:45.272+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:42:45.272+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:42:45.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.524 seconds
+[2025-11-20T17:43:15.365+0000] {processor.py:161} INFO - Started process (PID=738) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:43:15.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:43:15.367+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:43:15.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:43:15.741+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:43:15.756+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:43:15.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:43:15.762+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:43:15.762+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:43:15.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.413 seconds
+[2025-11-20T17:43:46.125+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:43:46.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:43:46.127+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:43:46.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:43:46.544+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:43:46.559+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:43:46.559+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:43:46.566+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:43:46.566+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:43:46.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.458 seconds
+[2025-11-20T17:44:16.737+0000] {processor.py:161} INFO - Started process (PID=776) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:44:16.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:44:16.739+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:44:16.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:44:17.141+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:44:17.156+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:44:17.156+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:44:17.162+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:44:17.162+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:44:17.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.441 seconds
+[2025-11-20T17:44:47.763+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:44:47.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:44:47.765+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:44:47.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:44:48.224+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:44:48.244+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:44:48.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:44:48.253+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:44:48.253+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:44:48.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.511 seconds
+[2025-11-20T17:45:18.570+0000] {processor.py:161} INFO - Started process (PID=810) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:45:18.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:45:18.572+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:45:18.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:45:18.991+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:45:19.009+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:45:19.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:45:19.017+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:45:19.017+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:45:19.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.463 seconds
+[2025-11-20T17:45:49.380+0000] {processor.py:161} INFO - Started process (PID=827) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:45:49.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:45:49.381+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:45:49.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:45:49.771+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:45:49.789+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:45:49.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:45:49.797+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:45:49.797+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:45:49.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.435 seconds
+[2025-11-20T17:46:19.919+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:46:19.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:46:19.921+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:46:19.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:46:20.341+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:46:20.358+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:46:20.358+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:46:20.368+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:46:20.368+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:46:20.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.472 seconds
+[2025-11-20T17:46:51.113+0000] {processor.py:161} INFO - Started process (PID=861) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:46:51.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:46:51.115+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:46:51.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:46:51.537+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:46:51.552+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:46:51.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:46:51.560+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:46:51.560+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:46:51.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.466 seconds
+[2025-11-20T17:47:21.753+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:47:21.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:47:21.754+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:47:21.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:47:22.143+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:47:22.157+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:47:22.157+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:47:22.164+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:47:22.163+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:47:22.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.426 seconds
+[2025-11-20T17:47:53.072+0000] {processor.py:161} INFO - Started process (PID=895) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:47:53.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:47:53.074+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:47:53.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:47:53.475+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:47:53.489+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:47:53.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:47:53.495+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:47:53.495+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:47:53.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.438 seconds
+[2025-11-20T17:48:23.601+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:48:23.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:48:23.603+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:48:23.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:48:24.021+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:48:24.038+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:48:24.038+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:48:24.045+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:48:24.045+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:48:24.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.461 seconds
+[2025-11-20T17:48:54.350+0000] {processor.py:161} INFO - Started process (PID=930) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:48:54.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:48:54.352+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:48:54.351+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:48:54.841+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:48:54.864+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:48:54.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:48:54.873+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:48:54.872+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:48:54.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.542 seconds
+[2025-11-20T17:49:25.390+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:49:25.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:49:25.392+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:49:25.392+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:49:25.856+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:49:25.876+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:49:25.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:49:25.884+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:49:25.884+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:49:25.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.513 seconds
+[2025-11-20T17:49:56.087+0000] {processor.py:161} INFO - Started process (PID=965) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:49:56.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:49:56.088+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:49:56.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:49:56.507+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:49:56.524+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:49:56.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:49:56.531+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:49:56.531+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:49:56.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.462 seconds
+[2025-11-20T17:50:26.622+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:50:26.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:50:26.623+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:50:26.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:50:26.995+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:50:27.011+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:50:27.010+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:50:27.017+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:50:27.017+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:50:27.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.411 seconds
+[2025-11-20T17:50:57.194+0000] {processor.py:161} INFO - Started process (PID=999) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:50:57.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:50:57.196+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:50:57.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:50:57.582+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:50:57.596+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:50:57.596+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:50:57.602+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:50:57.602+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:50:57.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.423 seconds
+[2025-11-20T17:51:27.722+0000] {processor.py:161} INFO - Started process (PID=1016) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:51:27.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:51:27.723+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:51:27.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:51:28.099+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:51:28.114+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:51:28.114+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:51:28.120+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:51:28.120+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:51:28.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.414 seconds
+[2025-11-20T17:51:58.313+0000] {processor.py:161} INFO - Started process (PID=1033) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:51:58.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:51:58.314+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:51:58.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:51:58.960+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:51:58.979+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:51:58.979+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:51:58.986+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:51:58.986+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:51:59.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.692 seconds
+[2025-11-20T17:52:29.136+0000] {processor.py:161} INFO - Started process (PID=1050) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:52:29.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:52:29.138+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:52:29.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:52:29.550+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:52:29.564+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:52:29.564+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:52:29.570+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:52:29.570+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:52:29.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.450 seconds
+[2025-11-20T17:52:59.763+0000] {processor.py:161} INFO - Started process (PID=1067) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:52:59.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:52:59.765+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:52:59.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:53:00.195+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:53:00.213+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:53:00.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:53:00.220+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:53:00.220+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:53:00.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.475 seconds
+[2025-11-20T17:53:30.337+0000] {processor.py:161} INFO - Started process (PID=1084) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:53:30.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:53:30.339+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:53:30.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:53:30.844+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:53:30.863+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:53:30.862+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:53:30.870+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:53:30.870+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:53:30.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.551 seconds
+[2025-11-20T17:54:01.092+0000] {processor.py:161} INFO - Started process (PID=1100) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:54:01.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:54:01.094+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:54:01.094+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:54:01.533+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:54:01.548+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:54:01.547+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:54:01.555+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:54:01.555+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:54:01.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.480 seconds
+[2025-11-20T17:54:31.787+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:54:31.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:54:31.789+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:54:31.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:54:32.201+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:54:32.220+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:54:32.219+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:54:32.226+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:54:32.226+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:54:32.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.462 seconds
+[2025-11-20T17:55:02.314+0000] {processor.py:161} INFO - Started process (PID=1134) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:55:02.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:55:02.315+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:55:02.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:55:02.885+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:55:02.904+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:55:02.904+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:55:02.912+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:55:02.912+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:55:02.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.617 seconds
+[2025-11-20T17:55:33.137+0000] {processor.py:161} INFO - Started process (PID=1151) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:55:33.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:55:33.138+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:55:33.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:55:33.628+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:55:33.647+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:55:33.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:55:33.654+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:55:33.654+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:55:33.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.535 seconds
+[2025-11-20T17:56:04.348+0000] {processor.py:161} INFO - Started process (PID=1168) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:56:04.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:56:04.350+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:56:04.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:56:04.764+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:56:04.778+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:56:04.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:56:04.784+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:56:04.784+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:56:04.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.453 seconds
+[2025-11-20T17:56:35.333+0000] {processor.py:161} INFO - Started process (PID=1185) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:56:35.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:56:35.335+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:56:35.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:56:35.714+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:56:35.728+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:56:35.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:56:35.734+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:56:35.734+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:56:35.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.415 seconds
+[2025-11-20T17:57:05.912+0000] {processor.py:161} INFO - Started process (PID=1202) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:57:05.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:57:05.914+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:57:05.913+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:57:06.336+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:57:06.352+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:57:06.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:57:06.359+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:57:06.358+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:57:06.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.465 seconds
+[2025-11-20T17:57:36.918+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:57:36.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:57:36.919+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:57:36.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:57:37.327+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:57:37.341+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:57:37.341+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:57:37.348+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:57:37.347+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:57:37.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.448 seconds
+[2025-11-20T17:58:07.628+0000] {processor.py:161} INFO - Started process (PID=1236) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:58:07.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:58:07.629+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:58:07.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:58:07.989+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:58:08.004+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:58:08.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:58:08.010+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:58:08.010+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:58:08.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.398 seconds
+[2025-11-20T17:58:38.350+0000] {processor.py:161} INFO - Started process (PID=1256) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:58:38.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:58:38.352+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:58:38.352+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:58:38.827+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:58:38.846+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:58:38.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:58:38.854+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:58:38.854+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:58:38.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.523 seconds
+[2025-11-20T17:59:09.592+0000] {processor.py:161} INFO - Started process (PID=1273) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:59:09.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:59:09.594+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:59:09.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:59:10.069+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:59:10.087+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:59:10.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:59:10.094+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:59:10.094+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:59:10.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.521 seconds
+[2025-11-20T17:59:40.204+0000] {processor.py:161} INFO - Started process (PID=1290) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T17:59:40.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T17:59:40.205+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:59:40.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:59:40.614+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T17:59:40.631+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:59:40.631+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T17:59:40.637+0000] {logging_mixin.py:188} INFO - [2025-11-20T17:59:40.637+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T17:59:40.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.449 seconds
+[2025-11-20T18:00:10.925+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:00:10.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:00:10.927+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:00:10.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:00:11.445+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:00:11.460+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:00:11.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:00:11.467+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:00:11.467+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:00:11.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.559 seconds
+[2025-11-20T18:00:41.593+0000] {processor.py:161} INFO - Started process (PID=1324) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:00:41.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:00:41.595+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:00:41.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:00:42.073+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:00:42.093+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:00:42.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:00:42.100+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:00:42.100+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:00:42.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.527 seconds
+[2025-11-20T18:01:12.326+0000] {processor.py:161} INFO - Started process (PID=1341) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:01:12.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:01:12.328+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:01:12.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:01:12.833+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:01:12.848+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:01:12.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:01:12.856+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:01:12.855+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:01:12.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.548 seconds
+[2025-11-20T18:01:43.240+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:01:43.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:01:43.242+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:01:43.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:01:43.724+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:01:43.752+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:01:43.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:01:43.761+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:01:43.761+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:01:43.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.544 seconds
+[2025-11-20T18:02:14.179+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:02:14.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:02:14.181+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:02:14.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:02:14.688+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:02:14.705+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:02:14.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:02:14.714+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:02:14.714+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:02:14.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.555 seconds
+[2025-11-20T18:02:44.845+0000] {processor.py:161} INFO - Started process (PID=1398) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:02:44.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:02:44.847+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:02:44.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:02:45.242+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:02:45.259+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:02:45.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:02:45.266+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:02:45.266+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:02:45.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.439 seconds
+[2025-11-20T18:03:15.580+0000] {processor.py:161} INFO - Started process (PID=1415) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:03:15.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:03:15.581+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:03:15.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:03:15.968+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:03:15.983+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:03:15.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:03:15.991+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:03:15.991+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:03:16.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.429 seconds
+[2025-11-20T18:03:46.260+0000] {processor.py:161} INFO - Started process (PID=1432) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:03:46.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:03:46.262+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:03:46.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:03:46.668+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:03:46.683+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:03:46.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:03:46.691+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:03:46.691+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:03:46.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.446 seconds
+[2025-11-20T18:04:17.260+0000] {processor.py:161} INFO - Started process (PID=1449) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:04:17.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:04:17.262+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:04:17.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:04:17.674+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:04:17.695+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:04:17.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:04:17.701+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:04:17.701+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:04:17.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.459 seconds
+[2025-11-20T18:04:48.151+0000] {processor.py:161} INFO - Started process (PID=1466) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:04:48.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:04:48.153+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:04:48.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:04:48.589+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:04:48.612+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:04:48.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:04:48.623+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:04:48.623+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:04:48.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.495 seconds
+[2025-11-20T18:05:18.714+0000] {processor.py:161} INFO - Started process (PID=1486) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:05:18.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:05:18.716+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:05:18.716+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:05:19.135+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:05:19.151+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:05:19.151+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:05:19.159+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:05:19.159+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:05:19.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.464 seconds
+[2025-11-20T18:05:49.639+0000] {processor.py:161} INFO - Started process (PID=1503) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:05:49.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:05:49.640+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:05:49.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:05:50.110+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:05:50.128+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:05:50.127+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:05:50.136+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:05:50.136+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:05:50.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.519 seconds
+[2025-11-20T18:06:20.575+0000] {processor.py:161} INFO - Started process (PID=1520) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:06:20.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:06:20.577+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:06:20.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:06:20.924+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:06:20.949+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:06:20.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:06:20.962+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:06:20.961+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:06:20.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.409 seconds
+[2025-11-20T18:06:51.080+0000] {processor.py:161} INFO - Started process (PID=1537) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:06:51.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:06:51.082+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:06:51.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:06:51.451+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:06:51.471+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:06:51.471+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:06:51.480+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:06:51.480+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:06:51.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.419 seconds
+[2025-11-20T18:07:22.173+0000] {processor.py:161} INFO - Started process (PID=1554) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:07:22.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:07:22.175+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:07:22.174+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:07:22.506+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:07:22.527+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:07:22.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:07:22.538+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:07:22.538+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:07:22.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.386 seconds
+[2025-11-20T18:07:52.736+0000] {processor.py:161} INFO - Started process (PID=1571) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:07:52.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:07:52.738+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:07:52.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:07:53.089+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:07:53.106+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:07:53.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:07:53.116+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:07:53.116+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:07:53.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.399 seconds
+[2025-11-20T18:08:23.251+0000] {processor.py:161} INFO - Started process (PID=1588) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:08:23.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:08:23.253+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:08:23.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:08:23.607+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:08:23.628+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:08:23.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:08:23.638+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:08:23.638+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:08:23.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.408 seconds
+[2025-11-20T18:08:53.775+0000] {processor.py:161} INFO - Started process (PID=1605) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:08:53.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:08:53.777+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:08:53.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:08:54.098+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:08:54.117+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:08:54.117+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:08:54.127+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:08:54.126+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:08:54.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.371 seconds
+[2025-11-20T18:09:24.769+0000] {processor.py:161} INFO - Started process (PID=1622) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:09:24.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:09:24.771+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:09:24.771+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:09:25.084+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:09:25.102+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:09:25.102+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:09:25.110+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:09:25.110+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:09:25.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.358 seconds
+[2025-11-20T18:09:55.289+0000] {processor.py:161} INFO - Started process (PID=1639) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:09:55.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:09:55.291+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:09:55.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:09:55.586+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:09:55.605+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:09:55.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:09:55.613+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:09:55.613+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:09:55.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.341 seconds
+[2025-11-20T18:10:26.359+0000] {processor.py:161} INFO - Started process (PID=1656) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:10:26.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:10:26.361+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:10:26.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:10:26.673+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:10:26.692+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:10:26.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:10:26.701+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:10:26.701+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:10:26.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.359 seconds
+[2025-11-20T18:10:56.870+0000] {processor.py:161} INFO - Started process (PID=1673) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:10:56.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:10:56.872+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:10:56.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:10:57.214+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:10:57.233+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:10:57.233+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:10:57.242+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:10:57.242+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:10:57.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.389 seconds
+[2025-11-20T18:11:27.683+0000] {processor.py:161} INFO - Started process (PID=1690) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:11:27.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:11:27.685+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:11:27.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:11:28.048+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:11:28.070+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:11:28.070+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:11:28.080+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:11:28.080+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:11:28.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.420 seconds
+[2025-11-20T18:11:58.252+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:11:58.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:11:58.254+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:11:58.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:11:58.544+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:11:58.561+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:11:58.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:11:58.568+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:11:58.568+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:11:58.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.334 seconds
+[2025-11-20T18:12:28.701+0000] {processor.py:161} INFO - Started process (PID=1724) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:12:28.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:12:28.703+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:12:28.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:12:29.005+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:12:29.023+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:12:29.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:12:29.035+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:12:29.034+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:12:29.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.358 seconds
+[2025-11-20T18:12:59.187+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:12:59.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:12:59.189+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:12:59.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:12:59.492+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:12:59.511+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:12:59.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:12:59.520+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:12:59.519+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:12:59.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.350 seconds
+[2025-11-20T18:13:29.636+0000] {processor.py:161} INFO - Started process (PID=1758) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:13:29.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:13:29.639+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:13:29.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:13:29.976+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:13:29.994+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:13:29.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:13:30.003+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:13:30.003+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:13:30.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.390 seconds
+[2025-11-20T18:14:00.782+0000] {processor.py:161} INFO - Started process (PID=1774) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:14:00.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:14:00.784+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:14:00.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:14:01.092+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:14:01.112+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:14:01.112+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:14:01.120+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:14:01.120+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:14:01.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.356 seconds
+[2025-11-20T18:14:31.994+0000] {processor.py:161} INFO - Started process (PID=1791) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:14:31.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:14:31.997+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:14:31.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:14:32.385+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:14:32.405+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:14:32.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:14:32.415+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:14:32.415+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:14:32.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.444 seconds
+[2025-11-20T18:15:03.262+0000] {processor.py:161} INFO - Started process (PID=1807) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:15:03.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:15:03.264+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:15:03.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:15:03.580+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:15:03.601+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:15:03.601+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:15:03.611+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:15:03.610+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:15:03.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.368 seconds
+[2025-11-20T18:15:33.776+0000] {processor.py:161} INFO - Started process (PID=1825) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:15:33.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:15:33.777+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:15:33.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:15:34.140+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:15:34.163+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:15:34.163+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:15:34.174+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:15:34.174+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:15:34.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.424 seconds
+[2025-11-20T18:16:04.385+0000] {processor.py:161} INFO - Started process (PID=1842) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:16:04.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:16:04.387+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:16:04.387+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:16:04.763+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:16:04.782+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:16:04.782+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:16:04.793+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:16:04.793+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:16:04.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.433 seconds
+[2025-11-20T18:16:34.860+0000] {processor.py:161} INFO - Started process (PID=1859) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:16:34.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:16:34.862+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:16:34.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:16:35.141+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:16:35.159+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:16:35.159+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:16:35.167+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:16:35.167+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:16:35.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.325 seconds
+[2025-11-20T18:17:05.399+0000] {processor.py:161} INFO - Started process (PID=1876) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:17:05.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:17:05.401+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:17:05.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:17:05.699+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:17:05.717+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:17:05.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:17:05.726+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:17:05.726+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:17:05.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.347 seconds
+[2025-11-20T18:17:35.788+0000] {processor.py:161} INFO - Started process (PID=1893) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:17:35.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:17:35.789+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:17:35.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:17:36.077+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:17:36.094+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:17:36.094+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:17:36.103+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:17:36.103+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:17:36.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.332 seconds
+[2025-11-20T18:18:06.160+0000] {processor.py:161} INFO - Started process (PID=1910) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:18:06.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:18:06.161+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:18:06.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:18:06.447+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:18:06.464+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:18:06.464+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:18:06.471+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:18:06.471+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:18:06.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.421 seconds
+[2025-11-20T18:18:36.610+0000] {processor.py:161} INFO - Started process (PID=1927) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:18:36.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:18:36.611+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:18:36.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:18:36.927+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:18:36.949+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:18:36.948+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:18:36.959+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:18:36.959+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:18:36.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.369 seconds
+[2025-11-20T18:19:07.892+0000] {processor.py:161} INFO - Started process (PID=1944) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:19:07.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:19:07.893+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:19:07.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:19:08.187+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:19:08.205+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:19:08.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:19:08.214+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:19:08.213+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:19:08.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.340 seconds
+[2025-11-20T18:19:39.110+0000] {processor.py:161} INFO - Started process (PID=1961) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:19:39.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:19:39.112+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:19:39.112+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:19:39.448+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:19:39.466+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:19:39.466+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:19:39.475+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:19:39.475+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:19:39.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.384 seconds
+[2025-11-20T18:20:09.671+0000] {processor.py:161} INFO - Started process (PID=1978) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:20:09.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:20:09.673+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:20:09.673+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:20:09.992+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:20:10.009+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:20:10.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:20:10.016+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:20:10.016+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:20:10.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.449 seconds
+[2025-11-20T18:20:40.969+0000] {processor.py:161} INFO - Started process (PID=1995) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:20:40.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:20:40.971+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:20:40.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:20:41.305+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:20:41.326+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:20:41.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:20:41.336+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:20:41.336+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:20:41.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.387 seconds
+[2025-11-20T18:21:12.161+0000] {processor.py:161} INFO - Started process (PID=2012) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:21:12.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:21:12.163+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:21:12.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:21:12.506+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:21:12.524+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:21:12.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:21:12.533+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:21:12.533+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:21:12.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.390 seconds
+[2025-11-20T18:21:42.745+0000] {processor.py:161} INFO - Started process (PID=2029) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:21:42.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:21:42.747+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:21:42.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:21:43.052+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:21:43.070+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:21:43.069+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:21:43.078+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:21:43.078+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:21:43.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.352 seconds
+[2025-11-20T18:22:13.251+0000] {processor.py:161} INFO - Started process (PID=2046) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:22:13.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:22:13.253+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:22:13.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:22:13.809+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:22:13.831+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:22:13.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:22:13.840+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:22:13.840+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:22:13.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.706 seconds
+[2025-11-20T18:22:44.673+0000] {processor.py:161} INFO - Started process (PID=2063) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:22:44.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:22:44.675+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:22:44.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:22:44.977+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:22:44.993+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:22:44.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:22:45.086+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:22:45.086+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:22:45.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.430 seconds
+[2025-11-20T18:23:15.235+0000] {processor.py:161} INFO - Started process (PID=2080) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:23:15.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:23:15.237+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:23:15.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:23:15.548+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:23:15.568+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:23:15.567+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:23:15.576+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:23:15.576+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:23:15.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.358 seconds
+[2025-11-20T18:23:45.619+0000] {processor.py:161} INFO - Started process (PID=2103) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:23:45.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:23:45.621+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:23:45.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:23:45.954+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:23:45.975+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:23:45.975+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:23:45.985+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:23:45.985+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:23:45.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.386 seconds
+[2025-11-20T18:24:16.773+0000] {processor.py:161} INFO - Started process (PID=2118) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:24:16.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:24:16.775+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:24:16.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:24:17.074+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:24:17.095+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:24:17.094+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:24:17.106+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:24:17.106+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:24:17.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.447 seconds
+[2025-11-20T18:24:47.947+0000] {processor.py:161} INFO - Started process (PID=2133) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:24:47.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:24:47.956+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:24:47.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:24:48.546+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:24:48.704+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:24:48.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:24:48.712+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:24:48.712+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:24:48.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.790 seconds
+[2025-11-20T18:25:19.470+0000] {processor.py:161} INFO - Started process (PID=2149) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:25:19.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:25:19.472+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:25:19.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:25:19.774+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:25:19.790+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:25:19.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:25:19.800+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:25:19.799+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:25:19.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.350 seconds
+[2025-11-20T18:25:49.885+0000] {processor.py:161} INFO - Started process (PID=2164) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:25:49.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:25:49.887+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:25:49.886+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:25:50.166+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:25:50.185+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:25:50.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:25:50.193+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:25:50.193+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:25:50.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.326 seconds
+[2025-11-20T18:26:20.357+0000] {processor.py:161} INFO - Started process (PID=2179) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:26:20.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:26:20.359+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:26:20.359+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:26:20.655+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:26:20.673+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:26:20.673+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:26:20.771+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:26:20.770+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:26:20.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.430 seconds
+[2025-11-20T18:26:51.515+0000] {processor.py:161} INFO - Started process (PID=2194) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:26:51.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:26:51.516+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:26:51.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:26:51.811+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:26:51.921+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:26:51.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:26:51.928+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:26:51.928+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:26:51.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.431 seconds
+[2025-11-20T18:27:22.128+0000] {processor.py:161} INFO - Started process (PID=2209) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:27:22.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:27:22.130+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:27:22.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:27:22.500+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:27:22.520+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:27:22.519+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:27:22.528+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:27:22.528+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:27:22.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.419 seconds
+[2025-11-20T18:27:52.863+0000] {processor.py:161} INFO - Started process (PID=2224) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:27:52.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:27:52.865+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:27:52.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:27:53.214+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:27:53.232+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:27:53.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:27:53.241+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:27:53.241+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:27:53.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.397 seconds
+[2025-11-20T18:28:23.386+0000] {processor.py:161} INFO - Started process (PID=2241) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:28:23.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:28:23.388+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:28:23.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:28:23.682+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:28:23.702+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:28:23.702+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:28:23.814+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:28:23.814+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:28:23.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.447 seconds
+[2025-11-20T18:28:53.895+0000] {processor.py:161} INFO - Started process (PID=2258) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:28:53.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:28:53.897+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:28:53.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:28:54.199+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:28:54.312+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:28:54.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:28:54.318+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:28:54.318+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:28:54.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.441 seconds
+[2025-11-20T18:29:25.200+0000] {processor.py:161} INFO - Started process (PID=2275) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:29:25.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:29:25.201+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:29:25.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:29:25.493+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:29:25.511+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:29:25.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:29:25.519+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:29:25.519+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:29:25.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.337 seconds
+[2025-11-20T18:29:55.722+0000] {processor.py:161} INFO - Started process (PID=2292) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:29:55.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:29:55.723+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:29:55.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:29:56.025+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:29:56.041+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:29:56.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:29:56.050+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:29:56.049+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:29:56.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.436 seconds
+[2025-11-20T18:30:26.211+0000] {processor.py:161} INFO - Started process (PID=2309) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:30:26.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:30:26.212+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:30:26.212+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:30:26.535+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:30:26.647+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:30:26.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:30:26.653+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:30:26.653+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:30:26.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.458 seconds
+[2025-11-20T18:30:56.711+0000] {processor.py:161} INFO - Started process (PID=2326) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:30:56.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:30:56.713+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:30:56.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:30:57.010+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:30:57.121+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:30:57.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:30:57.128+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:30:57.128+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:30:57.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.433 seconds
+[2025-11-20T18:31:27.993+0000] {processor.py:161} INFO - Started process (PID=2343) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:31:27.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:31:27.995+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:31:27.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:31:28.392+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:31:28.407+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:31:28.406+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:31:28.413+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:31:28.413+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:31:28.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.437 seconds
+[2025-11-20T18:31:58.483+0000] {processor.py:161} INFO - Started process (PID=2360) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:31:58.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:31:58.485+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:31:58.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:31:58.762+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:31:58.780+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:31:58.780+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:31:58.789+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:31:58.789+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:31:58.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.413 seconds
+[2025-11-20T18:32:29.653+0000] {processor.py:161} INFO - Started process (PID=2377) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:32:29.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:32:29.655+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:32:29.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:32:29.942+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:32:30.061+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:32:30.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:32:30.068+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:32:30.068+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:32:30.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.431 seconds
+[2025-11-20T18:33:00.209+0000] {processor.py:161} INFO - Started process (PID=2394) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:33:00.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:33:00.210+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:33:00.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:33:00.500+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:33:00.607+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:33:00.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:33:00.613+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:33:00.613+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:33:00.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.422 seconds
+[2025-11-20T18:33:30.688+0000] {processor.py:161} INFO - Started process (PID=2411) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:33:30.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:33:30.690+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:33:30.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:33:31.072+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:33:31.087+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:33:31.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:33:31.093+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:33:31.093+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:33:31.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.422 seconds
+[2025-11-20T18:34:01.174+0000] {processor.py:161} INFO - Started process (PID=2428) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:34:01.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:34:01.176+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:34:01.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:34:01.547+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:34:01.563+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:34:01.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:34:01.569+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:34:01.569+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:34:01.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.413 seconds
+[2025-11-20T18:34:32.305+0000] {processor.py:161} INFO - Started process (PID=2445) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:34:32.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:34:32.306+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:34:32.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:34:32.741+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:34:32.757+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:34:32.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:34:32.764+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:34:32.764+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:34:32.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.475 seconds
+[2025-11-20T18:35:02.871+0000] {processor.py:161} INFO - Started process (PID=2462) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:35:02.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:35:02.873+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:35:02.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:35:03.318+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:35:03.335+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:35:03.335+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:35:03.346+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:35:03.345+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:35:03.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.494 seconds
+[2025-11-20T18:35:34.210+0000] {processor.py:161} INFO - Started process (PID=2479) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:35:34.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:35:34.211+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:35:34.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:35:34.585+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:35:34.599+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:35:34.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:35:34.606+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:35:34.605+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:35:34.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.410 seconds
+[2025-11-20T18:36:04.675+0000] {processor.py:161} INFO - Started process (PID=2496) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:36:04.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:36:04.677+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:36:04.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:36:05.041+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:36:05.055+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:36:05.055+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:36:05.061+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:36:05.061+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:36:05.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.404 seconds
+[2025-11-20T18:36:35.899+0000] {processor.py:161} INFO - Started process (PID=2513) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:36:35.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:36:35.901+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:36:35.901+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:36:36.288+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:36:36.303+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:36:36.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:36:36.309+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:36:36.309+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:36:36.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.425 seconds
+[2025-11-20T18:37:07.142+0000] {processor.py:161} INFO - Started process (PID=2530) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:37:07.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:37:07.143+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:37:07.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:37:07.642+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:37:07.660+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:37:07.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:37:07.668+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:37:07.668+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:37:07.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.541 seconds
+[2025-11-20T18:37:38.530+0000] {processor.py:161} INFO - Started process (PID=2547) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:37:38.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:37:38.531+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:37:38.531+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:37:38.895+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:37:38.909+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:37:38.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:37:38.916+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:37:38.916+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:37:38.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.401 seconds
+[2025-11-20T18:38:09.034+0000] {processor.py:161} INFO - Started process (PID=2564) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:38:09.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:38:09.036+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:38:09.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:38:09.460+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:38:09.480+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:38:09.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:38:09.488+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:38:09.487+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:38:09.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.468 seconds
+[2025-11-20T18:38:39.870+0000] {processor.py:161} INFO - Started process (PID=2581) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:38:39.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:38:39.872+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:38:39.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:38:40.283+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:38:40.303+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:38:40.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:38:40.310+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:38:40.310+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:38:40.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.455 seconds
+[2025-11-20T18:39:11.133+0000] {processor.py:161} INFO - Started process (PID=2598) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:39:11.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:39:11.134+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:39:11.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:39:11.496+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:39:11.510+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:39:11.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:39:11.517+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:39:11.516+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:39:11.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.398 seconds
+[2025-11-20T18:39:41.651+0000] {processor.py:161} INFO - Started process (PID=2615) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:39:41.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:39:41.652+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:39:41.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:39:42.031+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:39:42.046+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:39:42.045+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:39:42.053+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:39:42.053+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:39:42.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.418 seconds
+[2025-11-20T18:40:12.191+0000] {processor.py:161} INFO - Started process (PID=2632) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:40:12.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:40:12.192+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:40:12.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:40:12.572+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:40:12.588+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:40:12.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:40:12.595+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:40:12.595+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:40:12.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.419 seconds
+[2025-11-20T18:40:42.679+0000] {processor.py:161} INFO - Started process (PID=2649) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:40:42.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:40:42.680+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:40:42.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:40:43.108+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:40:43.123+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:40:43.123+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:40:43.130+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:40:43.130+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:40:43.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.465 seconds
+[2025-11-20T18:41:13.297+0000] {processor.py:161} INFO - Started process (PID=2666) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:41:13.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:41:13.299+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:41:13.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:41:13.753+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:41:13.768+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:41:13.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:41:13.775+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:41:13.775+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:41:13.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.493 seconds
+[2025-11-20T18:41:43.891+0000] {processor.py:161} INFO - Started process (PID=2683) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:41:43.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:41:43.893+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:41:43.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:41:44.281+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:41:44.296+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:41:44.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:41:44.302+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:41:44.302+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:41:44.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.429 seconds
+[2025-11-20T18:42:14.577+0000] {processor.py:161} INFO - Started process (PID=2700) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:42:14.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:42:14.578+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:42:14.578+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:42:14.994+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:42:15.009+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:42:15.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:42:15.018+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:42:15.018+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:42:15.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.458 seconds
+[2025-11-20T18:42:45.157+0000] {processor.py:161} INFO - Started process (PID=2717) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:42:45.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:42:45.159+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:42:45.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:42:45.548+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:42:45.563+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:42:45.562+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:42:45.569+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:42:45.569+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:42:45.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.429 seconds
+[2025-11-20T18:43:15.794+0000] {processor.py:161} INFO - Started process (PID=2734) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:43:15.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:43:15.796+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:43:15.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:43:16.221+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:43:16.239+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:43:16.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:43:16.246+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:43:16.246+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:43:16.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.469 seconds
+[2025-11-20T18:43:46.346+0000] {processor.py:161} INFO - Started process (PID=2751) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:43:46.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:43:46.347+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:43:46.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:43:46.727+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:43:46.741+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:43:46.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:43:46.747+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:43:46.747+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:43:46.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.416 seconds
+[2025-11-20T18:44:16.832+0000] {processor.py:161} INFO - Started process (PID=2768) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:44:16.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:44:16.834+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:44:16.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:44:17.217+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:44:17.232+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:44:17.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:44:17.239+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:44:17.239+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:44:17.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.423 seconds
+[2025-11-20T18:44:48.095+0000] {processor.py:161} INFO - Started process (PID=2791) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:44:48.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:44:48.097+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:44:48.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:44:48.481+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:44:48.497+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:44:48.496+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:44:48.503+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:44:48.503+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:44:48.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.423 seconds
+[2025-11-20T18:45:18.593+0000] {processor.py:161} INFO - Started process (PID=2808) to work on /opt/airflow/dags/test_integration.py
+[2025-11-20T18:45:18.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_integration.py for tasks to queue
+[2025-11-20T18:45:18.595+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:45:18.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:45:19.015+0000] {processor.py:840} INFO - DAG(s) 'test_integration' retrieved from /opt/airflow/dags/test_integration.py
+[2025-11-20T18:45:19.031+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:45:19.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T18:45:19.040+0000] {logging_mixin.py:188} INFO - [2025-11-20T18:45:19.039+0000] {dag.py:3954} INFO - Setting next_dagrun for test_integration to None, run_after=None
+[2025-11-20T18:45:19.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_integration.py took 0.464 seconds

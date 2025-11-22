@@ -1,0 +1,54 @@
+[2025-11-19T16:25:12.968+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-19T16:25:13.088+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clickhouse_connect_test.load_with_connect manual__2025-11-19T16:25:11.614426+00:00 [queued]>
+[2025-11-19T16:25:13.093+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clickhouse_connect_test.load_with_connect manual__2025-11-19T16:25:11.614426+00:00 [queued]>
+[2025-11-19T16:25:13.093+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-19T16:25:13.101+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_with_connect> on 2025-11-19 16:25:11.614426+00:00
+[2025-11-19T16:25:13.105+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=577) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-19T16:25:13.107+0000] {standard_task_runner.py:63} INFO - Started process 579 to run task
+[2025-11-19T16:25:13.108+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'clickhouse_connect_test', 'load_with_connect', 'manual__2025-11-19T16:25:11.614426+00:00', '--job-id', '185', '--raw', '--subdir', 'DAGS_FOLDER/test_ch_3.py', '--cfg-path', '/tmp/tmp888a7_4w']
+[2025-11-19T16:25:13.109+0000] {standard_task_runner.py:91} INFO - Job 185: Subtask load_with_connect
+[2025-11-19T16:25:13.140+0000] {task_command.py:426} INFO - Running <TaskInstance: clickhouse_connect_test.load_with_connect manual__2025-11-19T16:25:11.614426+00:00 [running]> on host 8374c225f2b5
+[2025-11-19T16:25:13.198+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='clickhouse_connect_test' AIRFLOW_CTX_TASK_ID='load_with_connect' AIRFLOW_CTX_EXECUTION_DATE='2025-11-19T16:25:11.614426+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-19T16:25:11.614426+00:00'
+[2025-11-19T16:25:13.199+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-19T16:25:13.222+0000] {test_ch_3.py:18} INFO - ✅ Подключение к ClickHouse установлено
+[2025-11-19T16:25:13.233+0000] {test_ch_3.py:64} ERROR - ❌ Ошибка: 'str' object has no attribute 'python_type'
+[2025-11-19T16:25:13.233+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-19T16:25:13.233+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_ch_3.py", line 53, in load_with_clickhouse_connect
+    client.insert_df('employees_connect', df, column_types=column_types)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/client.py", line 649, in insert_df
+    return self.insert(table,
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/client.py", line 617, in insert
+    context.data = data
+    ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/insert.py", line 76, in data
+    data = self._convert_pandas(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_connect/driver/insert.py", line 152, in _convert_pandas
+    if ch_type.python_type == int:
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'python_type'
+[2025-11-19T16:25:13.242+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=clickhouse_connect_test, task_id=load_with_connect, run_id=manual__2025-11-19T16:25:11.614426+00:00, execution_date=20251119T162511, start_date=20251119T162513, end_date=20251119T162513
+[2025-11-19T16:25:13.250+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 185 for task load_with_connect ('str' object has no attribute 'python_type'; 579)
+[2025-11-19T16:25:13.280+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-19T16:25:13.290+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-19T16:25:13.291+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

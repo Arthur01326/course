@@ -1,0 +1,118 @@
+[2025-11-18T18:18:06.065+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-18T18:18:06.083+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_ch_2.process_csv_simple manual__2025-11-18T18:18:04.459437+00:00 [queued]>
+[2025-11-18T18:18:06.094+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_ch_2.process_csv_simple manual__2025-11-18T18:18:04.459437+00:00 [queued]>
+[2025-11-18T18:18:06.095+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-18T18:18:06.107+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_csv_simple> on 2025-11-18 18:18:04.459437+00:00
+[2025-11-18T18:18:06.111+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=6262) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-18T18:18:06.112+0000] {standard_task_runner.py:63} INFO - Started process 6264 to run task
+[2025-11-18T18:18:06.112+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_ch_2', 'process_csv_simple', 'manual__2025-11-18T18:18:04.459437+00:00', '--job-id', '164', '--raw', '--subdir', 'DAGS_FOLDER/test_ch_jar.py', '--cfg-path', '/tmp/tmpx3oue0px']
+[2025-11-18T18:18:06.113+0000] {standard_task_runner.py:91} INFO - Job 164: Subtask process_csv_simple
+[2025-11-18T18:18:06.152+0000] {task_command.py:426} INFO - Running <TaskInstance: test_ch_2.process_csv_simple manual__2025-11-18T18:18:04.459437+00:00 [running]> on host 8374c225f2b5
+[2025-11-18T18:18:06.210+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_ch_2' AIRFLOW_CTX_TASK_ID='process_csv_simple' AIRFLOW_CTX_EXECUTION_DATE='2025-11-18T18:18:04.459437+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-18T18:18:04.459437+00:00'
+[2025-11-18T18:18:06.211+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-18T18:18:06.223+0000] {test_ch_jar.py:15} INFO - Подключение к ClickHouse установлено
+[2025-11-18T18:18:06.241+0000] {test_ch_jar.py:61} ERROR - Ошибка при выполнении: Code: 62.
+DB::Exception: Syntax error: failed at position 52 ('#') (line 2, col 51): # Исправлено: создаем employees1234
+        (
+            name String,
+            position String,
+            salary Float64,
+            hir. Unrecognized token: '#'. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7be39856c609 in ?
+11. __clone @ 0x7be398493293 in ?
+
+[2025-11-18T18:18:06.242+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-18T18:18:06.243+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_ch_jar.py", line 28, in test_ch_2
+    client.execute(create_table_query)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 382, in execute
+    rv = self.process_ordinary_query(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 580, in process_ordinary_query
+    return self.receive_result(with_column_types=with_column_types,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 212, in receive_result
+    return result.get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/result.py", line 50, in get_result
+    for packet in self.packet_generator:
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 228, in packet_generator
+    packet = self.receive_packet()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 245, in receive_packet
+    raise packet.exception
+clickhouse_driver.errors.ServerException: Code: 62.
+DB::Exception: Syntax error: failed at position 52 ('#') (line 2, col 51): # Исправлено: создаем employees1234
+        (
+            name String,
+            position String,
+            salary Float64,
+            hir. Unrecognized token: '#'. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7be39856c609 in ?
+11. __clone @ 0x7be398493293 in ?
+
+[2025-11-18T18:18:06.253+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=test_ch_2, task_id=process_csv_simple, run_id=manual__2025-11-18T18:18:04.459437+00:00, execution_date=20251118T181804, start_date=20251118T181806, end_date=20251118T181806
+[2025-11-18T18:18:06.262+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 164 for task process_csv_simple (Code: 62.
+DB::Exception: Syntax error: failed at position 52 ('#') (line 2, col 51): # Исправлено: создаем employees1234
+        (
+            name String,
+            position String,
+            salary Float64,
+            hir. Unrecognized token: '#'. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7be39856c609 in ?
+11. __clone @ 0x7be398493293 in ?
+; 6264)
+[2025-11-18T18:18:06.285+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-18T18:18:06.298+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-18T18:18:06.299+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

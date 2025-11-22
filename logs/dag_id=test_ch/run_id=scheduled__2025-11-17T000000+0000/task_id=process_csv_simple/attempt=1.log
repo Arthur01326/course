@@ -1,0 +1,66 @@
+[2025-11-18T17:46:30.966+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-18T17:46:30.987+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_ch.process_csv_simple scheduled__2025-11-17T00:00:00+00:00 [queued]>
+[2025-11-18T17:46:30.993+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_ch.process_csv_simple scheduled__2025-11-17T00:00:00+00:00 [queued]>
+[2025-11-18T17:46:30.994+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-18T17:46:31.004+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_csv_simple> on 2025-11-17 00:00:00+00:00
+[2025-11-18T17:46:31.011+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=5468) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-18T17:46:31.012+0000] {standard_task_runner.py:63} INFO - Started process 5470 to run task
+[2025-11-18T17:46:31.013+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_ch', 'process_csv_simple', 'scheduled__2025-11-17T00:00:00+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/test_ch.py', '--cfg-path', '/tmp/tmpghptd2m3']
+[2025-11-18T17:46:31.013+0000] {standard_task_runner.py:91} INFO - Job 159: Subtask process_csv_simple
+[2025-11-18T17:46:31.053+0000] {task_command.py:426} INFO - Running <TaskInstance: test_ch.process_csv_simple scheduled__2025-11-17T00:00:00+00:00 [running]> on host 8374c225f2b5
+[2025-11-18T17:46:31.116+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_ch' AIRFLOW_CTX_TASK_ID='process_csv_simple' AIRFLOW_CTX_EXECUTION_DATE='2025-11-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-17T00:00:00+00:00'
+[2025-11-18T17:46:31.117+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-18T17:46:31.131+0000] {connection.py:411} WARNING - Failed to connect to localhost:9000
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 399, in connect
+    return self._init_connection(host, port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 329, in _init_connection
+    self.socket = self._create_socket(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 301, in _create_socket
+    raise err
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 292, in _create_socket
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2025-11-18T17:46:31.133+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-18T17:46:31.134+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_ch.py", line 23, in test_ch
+    client.execute(create_table_query)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 370, in execute
+    with self.disconnect_on_error(query, settings):
+  File "/usr/local/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 313, in disconnect_on_error
+    self.establish_connection(settings)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 300, in establish_connection
+    self.connection.force_connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 258, in force_connect
+    self.connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 420, in connect
+    raise err
+clickhouse_driver.errors.NetworkError: Code: 210. Connection refused (localhost:9000)
+[2025-11-18T17:46:31.144+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=test_ch, task_id=process_csv_simple, run_id=scheduled__2025-11-17T00:00:00+00:00, execution_date=20251117T000000, start_date=20251118T174630, end_date=20251118T174631
+[2025-11-18T17:46:31.153+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 159 for task process_csv_simple (Code: 210. Connection refused (localhost:9000); 5470)
+[2025-11-18T17:46:31.186+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-18T17:46:31.201+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-18T17:46:31.203+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,21 @@
+[2025-11-18T15:15:12.460+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-18T15:15:12.476+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_push_clickhouse.check_clickhouse manual__2025-11-18T15:00:54.898551+00:00 [queued]>
+[2025-11-18T15:15:12.481+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_push_clickhouse.check_clickhouse manual__2025-11-18T15:00:54.898551+00:00 [queued]>
+[2025-11-18T15:15:12.482+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-18T15:15:12.498+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): check_clickhouse> on 2025-11-18 15:00:54.898551+00:00
+[2025-11-18T15:15:12.503+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3339) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-18T15:15:12.505+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'test_push_clickhouse', 'check_clickhouse', 'manual__2025-11-18T15:00:54.898551+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/test_push_clickhouse.py', '--cfg-path', '/tmp/tmp6vz6c26r']
+[2025-11-18T15:15:12.506+0000] {standard_task_runner.py:63} INFO - Started process 3340 to run task
+[2025-11-18T15:15:12.506+0000] {standard_task_runner.py:91} INFO - Job 149: Subtask check_clickhouse
+[2025-11-18T15:15:12.544+0000] {task_command.py:426} INFO - Running <TaskInstance: test_push_clickhouse.check_clickhouse manual__2025-11-18T15:00:54.898551+00:00 [running]> on host 8374c225f2b5
+[2025-11-18T15:15:12.601+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_push_clickhouse' AIRFLOW_CTX_TASK_ID='check_clickhouse' AIRFLOW_CTX_EXECUTION_DATE='2025-11-18T15:00:54.898551+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-18T15:00:54.898551+00:00'
+[2025-11-18T15:15:12.602+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-18T15:15:12.613+0000] {logging_mixin.py:188} INFO - ❌ Ошибка подключения к ClickHouse: No module named 'jaydebeapi'
+[2025-11-18T15:15:12.614+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-11-18T15:15:12.615+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-18T15:15:12.621+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=test_push_clickhouse, task_id=check_clickhouse, run_id=manual__2025-11-18T15:00:54.898551+00:00, execution_date=20251118T150054, start_date=20251118T151512, end_date=20251118T151512
+[2025-11-18T15:15:12.640+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-18T15:15:12.652+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-18T15:15:12.653+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
